@@ -3207,6 +3207,7 @@ body.is-ie .spotlights>section {
 	min-height: 0;
 }
 
+
 .spotlights>section>.image {
 	background-position: center center;
 	background-size: cover;
@@ -3215,6 +3216,7 @@ body.is-ie .spotlights>section {
 	position: relative;
 	width: 25em;
 }
+
 
 .spotlights>section>.image img {
 	border-radius: 0;
@@ -3253,6 +3255,16 @@ body.is-ie .spotlights>section {
 	justify-content: center;
 	width: 50em;
 	-ms-flex: 1;
+}
+
+.spotlights>section>#left {
+	order: 1;
+
+}
+
+.spotlights>section>#right {
+	order: 2;
+
 }
 
 .spotlights>section>.content>.inner {
