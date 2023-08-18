@@ -2306,15 +2306,31 @@ button:hover:active:after,
 		display: block;
 	}
 
+	.features.wide {
+		display: block;
+	}
+
 	.features section {
 		border-top-width: 1px !important;
 		border-left-width: 0 !important;
 		width: 100%;
 	}
 
+	.features.wide section {
+		border-top-width: 1px !important;
+		border-left-width: 0 !important;
+		width: 100%;
+	}
+
+
 	.features section:first-child {
 		border-top-width: 0 !important;
 	}
+
+	.features.wide section:first-child {
+		border-top-width: 0 !important;
+	}
+
 
 }
 
@@ -2324,10 +2340,16 @@ button:hover:active:after,
 		padding: 2.5em 1.5em 0.1em 5.5em;
 	}
 
+	.features.wide section {
+		padding: 2.5em 1.5em 0.1em 5.5em;
+	}
+
 	.features section .icon {
 		left: 1.5em;
 		top: 2em;
 	}
+
+
 
 }
 
@@ -2337,12 +2359,21 @@ button:hover:active:after,
 		padding: 2em 1.5em 0.1em 1.5em;
 	}
 
+	.features.wide section {
+		padding: 2em 1.5em 0.1em 1.5em;
+	}
+
 	.features section .icon {
 		left: 0;
 		position: relative;
 		top: 0;
 	}
 
+	.features.wide section .icon {
+		left: 0;
+		position: relative;
+		top: 0;
+	}
 }
 
 /* Form */
