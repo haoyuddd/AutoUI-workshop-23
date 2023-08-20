@@ -3257,6 +3257,8 @@ body.is-ie .spotlights>section {
 	-ms-flex: 1;
 }
 
+
+
 .spotlights>section>#left {
 	order: 1;
 
@@ -3295,7 +3297,11 @@ body.is-ie .spotlights>section {
 .spotlights>section.inactive>.image:before,
 body.is-preload .spotlights>section>.image:before {
 	opacity: 1;
+
+
 }
+
+
 
 .spotlights>section.inactive>.content>.inner,
 body.is-preload .spotlights>section>.content>.inner {
